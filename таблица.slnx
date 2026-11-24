@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="таблица/таблица.vcxproj" Id="3056e59e-1049-45f0-847f-6b646e82d3ef" />
+</Solution>
