@@ -2,9 +2,9 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-char korabli[20] [20] ;
-char player_screen[20][20]; 
-int main()
+char korabli[20][20] ; // размер масива (для кораблей)(её не видет пользователь)
+char player_screen[20][20]; // размер масива(пользовательский экран)(её видит пользователь)
+int main()      
 {
     int i, j, c, r;
     char answer;
@@ -13,7 +13,7 @@ int main()
         {
             if (i == 0 || i == 19 || j == 0 || j == 19)
             {
-                korabli[i][j] = '$'; // матрица korabli не видна пользователю, там лежить информация о кораблях
+                korabli[i][j] = '$'; // матрица korabli не видит пользователю, там лежить информация о кораблях
                 player_screen[i][j] = '$'; // матрица player_screen видна пользователю 
             }
             else
